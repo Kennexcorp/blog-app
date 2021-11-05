@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="05701d80-d70a-40be-aebf-70af5e8c6b29" name="Changes" comment="">
+    <list default="true" id="05701d80-d70a-40be-aebf-70af5e8c6b29" name="Changes" comment="Blog in progress">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,7 +75,16 @@
       <workItem from="1631829742538" duration="13000" />
       <workItem from="1631830210061" duration="1671000" />
       <workItem from="1633198660096" duration="66000" />
+      <workItem from="1636086020082" duration="380000" />
     </task>
+    <task id="LOCAL-00001" summary="Blog in progress">
+      <created>1636086278790</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1636086278790</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -91,5 +101,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Blog in progress" />
+    <option name="LAST_COMMIT_MESSAGE" value="Blog in progress" />
   </component>
 </project>
