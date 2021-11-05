@@ -5,7 +5,7 @@
             <div class="col-6">
                 <div class="card">
                     <div class="card-header">
-                        <h2><a href="" class="text-primary">{{ post.body }}</a></h2>
+                        <h2><a href="{% url 'post_detail' post.pk %}" class="text-primary">{{ post.body }}</a></h2>
                     </div>
                     <div class="card-body">
                         <p>{{ post.title }}</p>
