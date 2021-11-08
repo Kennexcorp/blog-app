@@ -1,9 +1,15 @@
 {% extends 'base.html' %}
 {% block content %}
     <div class="card">
-        <div class="card-header">{{ post.title }}</div>
+        <div class="card-header bg-dark text-white">{{ post.title }}</div>
         <div class="card-body">
             <p>{{ post.body }}</p>
         </div>
+
+        <div class="btn-group">
+            <a href="{% url 'post_edit' post.pk %}" class="btn btn-primary">+ Edit</a>
+            <a href="{% url 'post_delete' post.pk %}" class="btn btn-danger">+ Delete</a>
+        </div>
     </div>
+
 {% endblock content %}
