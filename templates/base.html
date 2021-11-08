@@ -7,9 +7,16 @@
 </head>
 <body class="container container-fluid">
 <header class="pb-5 pt-5">
-    <h1><a href="{% url 'home' %}" class="text-success text-decoration-underline">
+    <div class="float-start">
+        <a href="{% url 'home' %}" class="text-success text-decoration-underline">
         Personal blog
-    </a></h1>
+    </a>
+    </div>
+    <div class="float-end">
+        <a href="{% url 'post_new' %}" class="text-success text-decoration-underline">
+        + Add new post
+    </a>
+    </div>
 </header>
 <div>
     {% block content %}

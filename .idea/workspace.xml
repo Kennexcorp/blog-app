@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05701d80-d70a-40be-aebf-70af5e8c6b29" name="Changes" comment="Blog in progress">
-      <change afterPath="$PROJECT_DIR$/templates/post_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/post_new.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
     </list>
@@ -45,7 +46,27 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
   </component>
-  <component name="RunManager" selected="Django tests.Test: blog.tests.BlogTests.test_post_detail_view">
+  <component name="RunManager" selected="Django Server.BlogApp">
+    <configuration name="Test: blog.tests.BlogTests" type="DjangoTestsConfigurationType" temporary="true">
+      <module name="BlogApp" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="blog.tests.BlogTests" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Test: blog.tests.BlogTests.test_post_content" type="DjangoTestsConfigurationType" temporary="true">
       <module name="BlogApp" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -152,6 +173,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Django tests.Test: blog.tests.BlogTests" />
         <item itemvalue="Django tests.Test: blog.tests.BlogTests.test_post_detail_view" />
         <item itemvalue="Django tests.Test: blog.tests.BlogTests.test_post_list_view" />
         <item itemvalue="Django tests.Test: blog.tests.BlogTests.test_post_content" />
@@ -170,7 +192,9 @@
       <workItem from="1631829742538" duration="13000" />
       <workItem from="1631830210061" duration="1671000" />
       <workItem from="1633198660096" duration="66000" />
-      <workItem from="1636086020082" duration="4630000" />
+      <workItem from="1636086020082" duration="5319000" />
+      <workItem from="1636099696644" duration="42000" />
+      <workItem from="1636351400070" duration="1121000" />
     </task>
     <task id="LOCAL-00001" summary="Blog in progress">
       <created>1636086278790</created>
@@ -204,8 +228,9 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/BlogApp$Test__blog_tests_BlogTests_test_post_list_view.coverage" NAME="Test: blog.tests.BlogTests.test_post_list_view Coverage Results" MODIFIED="1636091055223" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/BlogApp$Test__blog_tests_BlogTests.coverage" NAME="Test: blog.tests.BlogTests Coverage Results" MODIFIED="1636091375133" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/BlogApp$Test__blog_tests_BlogTests_test_string_representation.coverage" NAME="Test: blog.tests.BlogTests.test_string_representation Coverage Results" MODIFIED="1636090976128" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/BlogApp$Test__blog_tests_BlogTests_test_post_detail_view.coverage" NAME="Test: blog.tests.BlogTests.test_post_detail_view Coverage Results" MODIFIED="1636091233212" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/BlogApp$Test__blog_tests_BlogTests_test_post_detail_view.coverage" NAME="Test: blog.tests.BlogTests.test_post_detail_view Coverage Results" MODIFIED="1636091365310" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/BlogApp$Test__blog_tests_BlogTests_test_post_content.coverage" NAME="Test: blog.tests.BlogTests.test_post_content Coverage Results" MODIFIED="1636090984651" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>
