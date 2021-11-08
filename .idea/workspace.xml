@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="05701d80-d70a-40be-aebf-70af5e8c6b29" name="Changes" comment="Blog in progress">
-      <change afterPath="$PROJECT_DIR$/templates/post_delete.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/post_edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/post_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/post_detail.html" afterDir="false" />
-    </list>
+    <list default="true" id="05701d80-d70a-40be-aebf-70af5e8c6b29" name="Changes" comment="Blog in progress" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -195,7 +187,7 @@
       <workItem from="1633198660096" duration="66000" />
       <workItem from="1636086020082" duration="5319000" />
       <workItem from="1636099696644" duration="42000" />
-      <workItem from="1636351400070" duration="2177000" />
+      <workItem from="1636351400070" duration="2504000" />
     </task>
     <task id="LOCAL-00001" summary="Blog in progress">
       <created>1636086278790</created>
